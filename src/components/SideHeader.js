@@ -4,7 +4,7 @@ function SideHeader() {
   return (
     <div className='SideHeader'>
         <div className='SideHeader-items'>
-            <li className="Side-items"><a href="">Coding Skills</a></li>
+            <li className="Side-items"><a href="#coding-skills">Coding Skills</a></li>
             <li className="Side-items"><a href="">Database that i use !</a></li>
             <li className="Side-items"><a href="#tools">Tools</a></li>
             <li className="Side-items"><a href="">Icons&Utilities</a></li>
@@ -15,4 +15,4 @@ function SideHeader() {
   )
 }
 
-export
+export default SideHeader

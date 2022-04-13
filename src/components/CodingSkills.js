@@ -16,7 +16,7 @@ function CodingSkills() {
 
 ScrollReveal().reveal('.Coding-skills', slideUp);
   return (
-    <div className='Coding-skills'>
+    <div id="coding-skills" className='Coding-skills'>
         <h1 className='text-coding' >Coding Skills</h1>
         <div className="code-skills">
             <div className="icon-code">
