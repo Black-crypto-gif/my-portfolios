@@ -1,13 +1,11 @@
 import React from 'react'
-import swal from 'sweetalert';
 import logo from '../asset/logo.png'
 import Hamburger from 'hamburger-react'
 import { useState } from 'react'
+import Button from './Button'
 
 function Header() {
-  const HandleContact = () => {
-    swal("Contact me at", "fethimellal@gmail.com", "success");
-    }
+  
     
   /* const [isOpen, setIsOpen] = useState('close'); */
   return (
@@ -54,12 +52,7 @@ function Header() {
             </div>
         </div>
         <div className="btn-header">
-        <button onClick={HandleContact}>
-            <span class="shadow"></span>
-            <span class="edge"></span>
-            <span class="front text"> Contact me
-            </span>
-        </button>
+        <Button />
         </div>
     </header>
   )

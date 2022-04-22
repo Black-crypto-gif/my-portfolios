@@ -5,6 +5,8 @@ import Card from './components/CodingSkills';
 import Code from './components/Code';
 import SideHeader from './components/SideHeader';
 import Tools from './components/Tools';
+import Icons from './components/Icons';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Card />
       <Code/>
       <Tools />
+      <Icons />
+      <Footer />
     </>
   );
 }
