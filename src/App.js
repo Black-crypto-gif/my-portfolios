@@ -7,6 +7,7 @@ import SideHeader from './components/SideHeader';
 import Tools from './components/Tools';
 import Icons from './components/Icons';
 import Footer from './components/Footer';
+import Testimonial from './components/Testimonial';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Tools />
       <Icons />
       <Footer />
+      <Testimonial />
     </>
   );
 }

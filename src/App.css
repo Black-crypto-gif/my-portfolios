@@ -689,8 +689,58 @@ img.url-tools {
   width: 0%;
 }
 
-
-
+#testimonial{
+  max-width: 100%;
+  height: 100vh;
+  padding: 2.7rem;
+  margin-bottom: 2.5rem;
+}
+.testimonial-card{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+  grid-gap: 2rem;
+  color: aliceblue;
+}
+.testimonial-cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  background-color: #011522;
+  padding: 2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  border-top: 2px red solid;
+}
+.testimonial-title{
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: white;
+  /* add the best text shadow*/
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+.testimonial{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: rgb(196, 197, 255);
+  line-height: 1.5;
+  margin: auto;
+}
+.testimonial-date{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  word-spacing: 1rem;
+  color: rgb(2, 3, 42);
+  background-color: #04AA6D;
+  padding: 1rem;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+  border-radius: 1rem;
+  margin: auto;
+}
 
 
 
@@ -748,4 +798,5 @@ img.url-tools {
     display: none;
   }
 }
+
 /* Greate */
