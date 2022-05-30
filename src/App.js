@@ -19,8 +19,8 @@ function App() {
       <Code/>
       <Tools />
       <Icons />
-      <Footer />
       <Testimonial />
+      <Footer />
     </>
   );
 }
